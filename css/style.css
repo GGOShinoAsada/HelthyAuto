@@ -1,0 +1,9 @@
+input[type=checkbox]{
+  display: none;
+}
+.vk_auth{
+  display: none;
+}
+input[type=checkbox]:checked ~  .vk_auth{
+  display: block
+}
